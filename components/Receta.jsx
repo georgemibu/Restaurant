@@ -1,17 +1,17 @@
 import React from 'react';
-import './Receta.css'; // Asegúrate de tener este archivo con el CSS que copiaste
+import './Receta.css'; 
 
 const Receta = () => {
   return (
     <div className="menu">
       <div className="nav-receta">
-        <img src="/assets/atras.svg" alt="Atrás" />
-        <img src="/assets/tres-puntos.svg" alt="Opciones" />
-        <img src="/assets/menu.svg" alt="Menú" />
+        <img src="\public\atras.svg" alt="Atrás" />
+        <img src="\public\tres-puntos.svg" alt="Opciones" />
+        <img src="\public\menu.svg" alt="Menú" />
       </div>
 
       <div className="foto-receta">
-        <img src="/assets/pollo-asado-horno-patatas-cebolla.jpg" alt="Foto receta" />
+        <img src="\public\pollo-asado-horno-patatas-cebolla.jpg" alt="Foto receta" />
       </div>
 
       <div className="descripcion-receta">
@@ -27,15 +27,15 @@ const Receta = () => {
 
       <div className="valoracion-receta">
         <div className="valoracion-img-container">
-          <img src="/assets/star.svg" alt="Valoración" />
+          <img src="\public\star.png" alt="Valoración" />
           <p>4.0</p>
         </div>
         <div className="valoracion-img-container">
-          <img src="/assets/fuego.png" alt="Kcal" />
+          <img src="\public\fuego.png" alt="Kcal" />
           <p>600 kcal</p>
         </div>
         <div className="valoracion-img-container">
-          <img src="/assets/despertador.png" alt="Tiempo de cocción" />
+          <img src="\public\despertador.png" alt="Tiempo de cocción" />
           <p>20 min</p>
         </div>
       </div>
