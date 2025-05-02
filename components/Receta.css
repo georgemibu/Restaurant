@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*Fondo no necesario para pasar a react*/
+body{
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*Menu container*/
+.menu{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #212121;
+    border-radius: 25px;
+    margin-bottom:120px;   
+}
+/*Navegación*/
+.nav-receta{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+/*Foto central de la receta*/
+.foto-receta{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-receta img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+/*Descripción de la receta*/
+.descripcion-receta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:10px;  
+    margin-top:10px;
+}
+/*Titulo, precio y detalle de la receta*/
+.titulo-receta{
+    font-size: 18px;
+    margin-right: 68px;
+}
+.precio-receta{
+    font-size: 15px;
+}
+.detalle-receta{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.detalle-receta p{
+    width: 100%;
+    height:70px;
+}
+
+.valoracion-receta{
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:4px;
+    padding-right:4px;
+
+}
+.valoracion-img-container{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.valoracion-receta img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #2d2d2d;
+    border-radius: 4px;
+}
+
+/*Ingredientes*/
+.ingredientes-receta{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top:8px;
+    margin-bottom: 10px;
+
+}
+.ingredientes-receta h3{
+    margin-bottom: 8px;
+}
+
+.ingredientes{
+    width: 95%;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+}
+.img-container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+}
+.ingredientes img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: #2d2d2d;
+    border-radius: 4px;
+    margin:auto;
+
+}
+
+/*Agregar receta*/
+.agregar-receta-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.contador-cantidad{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contador-cantidad button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.add-receta-container{
+    width: 70%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.add-to-cart{
+    width: 80%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: white;  
+    border-radius: 12px;  
+    padding:10px;
+    font-size: 12px;
+}
+.add-to-cart img{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background-color: #2d2d2d;
+    border-radius: 4px;
+    margin-left:10px;
+}
+
+
+.add-to-cart button{
+    width: 100%;
+    height: 15px;
+    border: none;
+    background-color: #2d2d2d;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
