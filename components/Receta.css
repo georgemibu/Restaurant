@@ -14,7 +14,16 @@ body{
     justify-content:center;
     align-items:center;
 }
-
+@media (min-width: 768px) {
+    body{
+        width: 35%;
+        font-family: "DM Sans", sans-serif;
+        color:#ffffff;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
 /*Menu container*/
 .menu{
     width:80%;
